@@ -6,6 +6,11 @@ This project benchmarks Large Language Models (LLMs) such as GPT-4 and Claude on
 
 The agent is prompted to perform multi-step actions to achieve goals (e.g., "Uninstall the Slack app") based on observed app UI elements. The models are evaluated in both **zero-shot** and **few-shot** settings.
 
+
+## Organization
+
+The scripts for the agents, scoring, and evaluatiing can be found in the src subdirectory.
+
 ## Setup
 
 ### 1. Clone This Repository
