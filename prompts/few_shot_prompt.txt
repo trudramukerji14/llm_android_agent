@@ -1,0 +1,31 @@
+Here are some examples:
+
+Goal: Add a new contact named John Doe  
+App: Contacts  
+UI Elements: Add, Favorites, Settings  
+Action: CLICK("Add")
+
+Goal: Uninstall the Gmail app  
+App: Settings  
+UI Elements: Apps, Battery, Search  
+Action: CLICK("Apps")
+
+Goal: Send an SMS
+App: Home
+UI Elements: Messages, Contacts, Browser
+Action: CLICK("Messages")
+
+
+---
+
+Now try this:
+
+Goal: {goal}  
+App: {app}  
+UI Elements: {ui_elements}  
+What is the next best action?
+
+Respond in the format:
+Action: CLICK("...")
+Reason: <why you chose this>
+

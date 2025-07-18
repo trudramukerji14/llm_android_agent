@@ -1,0 +1,19 @@
+{
+  "goal": "Turn on Airplane Mode",
+  "ground_truth_actions": [
+    "CLICK(\"Network\")",
+    "CLICK(\"Airplane Mode\")"
+  ],
+  "predicted_actions": [
+    "CLICK(\"Network\")",
+    "CLICK(\"Airplane Mode\")"
+  ],
+  "self_reflections": [
+    "Airplane Mode is a network-related setting that controls all wireless connections (Wi-Fi, cellular, Bluetooth). It would logically be found under the Network settings menu.",
+    "The goal is to turn on Airplane Mode, and \"Airplane Mode\" is directly visible in the Network app's UI elements. Clicking on it will toggle the Airplane Mode setting to enable it."
+  ],
+  "metrics": {
+    "step_accuracy": 1.0,
+    "episode_success": true
+  }
+}

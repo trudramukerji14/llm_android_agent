@@ -1,0 +1,22 @@
+{
+  "goal": "Uninstall the Slack app",
+  "ground_truth_actions": [
+    "CLICK(\"Apps\")",
+    "CLICK(\"Slack\")",
+    "CLICK(\"Uninstall\")"
+  ],
+  "predicted_actions": [
+    "CLICK(\"Apps\")",
+    "CLICK(\"Slack\")",
+    "CLICK(\"Uninstall\")"
+  ],
+  "self_reflections": [
+    "To uninstall the Slack app, I need to access the Apps section in Settings where I can view all installed applications and manage them, including uninstalling apps.",
+    "To uninstall the Slack app, I need to first access it. Clicking on the Slack app will likely open a context menu or take me to the app's details page where I can find the uninstall option.",
+    "The goal is to uninstall the Slack app, and there is an \"Uninstall\" button visible in the UI. Clicking this button will initiate the uninstallation process for the Slack app."
+  ],
+  "metrics": {
+    "step_accuracy": 1.0,
+    "episode_success": true
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "goal": "Set a timer for 10 minutes",
+  "ground_truth_actions": [
+    "CLICK(\"Timer\")",
+    "CLICK(\"Set time\")",
+    "TYPE(\"10:00\")",
+    "CLICK(\"Start\")"
+  ],
+  "predicted_actions": [
+    "CLICK(\"Timer\")",
+    "CLICK(\"Set time\")"
+  ],
+  "self_reflections": [
+    "To set a timer for 10 minutes, I need to access the Timer function within the Clock app. Among the available UI elements (Alarm, Stopwatch, Timer), \"Timer\" is the specific feature designed for setting countdown timers, which is exactly what's needed to accomplish the goal of setting a 10-minute timer.",
+    "To set a timer for 10 minutes, I first need to specify the duration. The \"Set time\" button will allow me to input the desired time of 10 minutes before starting the timer."
+  ],
+  "metrics": {
+    "step_accuracy": 0.5,
+    "episode_success": false
+  }
+}

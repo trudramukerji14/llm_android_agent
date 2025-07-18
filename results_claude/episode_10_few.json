@@ -1,0 +1,16 @@
+{
+  "goal": "Open Gmail app from the home screen",
+  "ground_truth_actions": [
+    "CLICK(\"Gmail\")"
+  ],
+  "predicted_actions": [
+    "CLICK(\"Gmail\")"
+  ],
+  "self_reflections": [
+    "Since the goal is to open the Gmail app and we're currently on the Home screen where Gmail is visible as a UI element, clicking on Gmail directly will launch the app."
+  ],
+  "metrics": {
+    "step_accuracy": 1.0,
+    "episode_success": true
+  }
+}

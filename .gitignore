@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+*.env
+.env
+*.DS_Store
+*.ipynb_checkpoints/
+llm_agent_env/

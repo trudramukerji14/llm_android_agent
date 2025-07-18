@@ -1,0 +1,19 @@
+{
+  "goal": "Enable dark mode",
+  "ground_truth_actions": [
+    "CLICK(\"Display\")",
+    "CLICK(\"Dark Mode\")"
+  ],
+  "predicted_actions": [
+    "CLICK(\"Display\")",
+    "CLICK(\"Dark Mode\")"
+  ],
+  "self_reflections": [
+    "The dark mode option is typically located under the display settings in most applications.",
+    "The goal is to enable dark mode and the \"Dark Mode\" option is visible and directly related to the goal."
+  ],
+  "metrics": {
+    "step_accuracy": 1.0,
+    "episode_success": true
+  }
+}

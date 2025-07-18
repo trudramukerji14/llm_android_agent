@@ -1,0 +1,21 @@
+{
+  "goal": "Add a new contact named 'John Doe'",
+  "ground_truth_actions": [
+    "CLICK(\"Add Contact\")",
+    "CLICK(\"Name\")",
+    "TYPE(\"John Doe\")",
+    "CLICK(\"Save\")"
+  ],
+  "predicted_actions": [
+    "CLICK(\"Add Contact\")",
+    "CLICK(\"Name\")"
+  ],
+  "self_reflections": [
+    "To add a new contact named 'John Doe', I need to click on the \"Add Contact\" button which will open the contact creation form where I can enter the contact's name and other details.",
+    "To add a new contact named 'John Doe', I need to first click on the Name field to enter the contact's name. This is the logical first step in the contact creation process."
+  ],
+  "metrics": {
+    "step_accuracy": 0.5,
+    "episode_success": false
+  }
+}

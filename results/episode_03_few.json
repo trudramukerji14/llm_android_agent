@@ -1,0 +1,16 @@
+{
+  "goal": "Open the Stopwatch tab in the Clock app",
+  "ground_truth_actions": [
+    "CLICK(\"Stopwatch\")"
+  ],
+  "predicted_actions": [
+    "CLICK(\"Stopwatch\")"
+  ],
+  "self_reflections": [
+    "The goal is to open the Stopwatch tab in the Clock app, and \"Stopwatch\" is one of the UI elements available."
+  ],
+  "metrics": {
+    "step_accuracy": 1.0,
+    "episode_success": true
+  }
+}

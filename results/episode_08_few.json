@@ -1,0 +1,21 @@
+{
+  "goal": "Set a timer for 10 minutes",
+  "ground_truth_actions": [
+    "CLICK(\"Timer\")",
+    "CLICK(\"Set time\")",
+    "TYPE(\"10:00\")",
+    "CLICK(\"Start\")"
+  ],
+  "predicted_actions": [
+    "CLICK(\"Timer\")",
+    "CLICK(\"Set time\")"
+  ],
+  "self_reflections": [
+    "The goal is to set a timer, and the \"Timer\" option is the most direct way to access this feature in the Clock app.",
+    "To set a timer, the first step would be to specify the duration for which the timer should run. In this case, that duration is 10 minutes."
+  ],
+  "metrics": {
+    "step_accuracy": 0.5,
+    "episode_success": false
+  }
+}

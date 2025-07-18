@@ -1,0 +1,21 @@
+{
+  "goal": "Search for 'weather' using the browser",
+  "ground_truth_actions": [
+    "CLICK(\"Browser\")",
+    "CLICK(\"Search bar\")",
+    "TYPE(\"weather\")",
+    "PRESS(\"Enter\")"
+  ],
+  "predicted_actions": [
+    "CLICK(\"Browser\")",
+    "CLICK(\"Search bar\")"
+  ],
+  "self_reflections": [
+    "To search for 'weather', I need to open the browser application first. The Browser app is visible on the home screen and is the appropriate tool for conducting web searches.",
+    "To search for 'weather', I need to first click on the search bar to activate it and place the cursor there, which will allow me to type the search query."
+  ],
+  "metrics": {
+    "step_accuracy": 0.5,
+    "episode_success": false
+  }
+}

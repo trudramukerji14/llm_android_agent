@@ -1,0 +1,21 @@
+{
+  "goal": "Set a timer for 10 minutes",
+  "ground_truth_actions": [
+    "CLICK(\"Timer\")",
+    "CLICK(\"Set time\")",
+    "TYPE(\"10:00\")",
+    "CLICK(\"Start\")"
+  ],
+  "predicted_actions": [
+    "CLICK(\"Timer\")",
+    "CLICK(\"Set time\")"
+  ],
+  "self_reflections": [
+    "The user wants to set a timer for 10 minutes. The \"Timer\" option in the visible UI elements is the most relevant to this task.",
+    "The first step to setting a timer is to specify the desired time duration. In this case, we need to set the timer for 10 minutes."
+  ],
+  "metrics": {
+    "step_accuracy": 0.5,
+    "episode_success": false
+  }
+}

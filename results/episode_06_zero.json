@@ -1,0 +1,21 @@
+{
+  "goal": "Search for 'weather' using the browser",
+  "ground_truth_actions": [
+    "CLICK(\"Browser\")",
+    "CLICK(\"Search bar\")",
+    "TYPE(\"weather\")",
+    "PRESS(\"Enter\")"
+  ],
+  "predicted_actions": [
+    "CLICK(\"Browser\")",
+    "CLICK(\"Search bar\")"
+  ],
+  "self_reflections": [
+    "To search for 'weather', we need to access the internet. The 'Browser' application will allow us to do this.",
+    "To input the search term 'weather', we need to first activate the search bar by clicking on it."
+  ],
+  "metrics": {
+    "step_accuracy": 0.5,
+    "episode_success": false
+  }
+}

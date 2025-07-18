@@ -1,0 +1,8 @@
+Goal: {goal}
+Current App: {app}
+Visible UI Elements: {ui_elements}
+What is the next best action?
+
+Respond in the format:
+Action: CLICK("...")
+Reason: <why you chose this>

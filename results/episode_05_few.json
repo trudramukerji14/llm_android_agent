@@ -1,0 +1,19 @@
+{
+  "goal": "Turn on Airplane Mode",
+  "ground_truth_actions": [
+    "CLICK(\"Network\")",
+    "CLICK(\"Airplane Mode\")"
+  ],
+  "predicted_actions": [
+    "CLICK(\"Network\")",
+    "CLICK(\"Airplane Mode\")"
+  ],
+  "self_reflections": [
+    "Airplane Mode is typically found under the Network or Connectivity settings in most devices.",
+    "The goal is to turn on Airplane Mode, and the Airplane Mode option is directly available among the UI elements."
+  ],
+  "metrics": {
+    "step_accuracy": 1.0,
+    "episode_success": true
+  }
+}

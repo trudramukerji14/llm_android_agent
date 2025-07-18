@@ -1,0 +1,26 @@
+{
+  "goal": "Send an SMS to Alice saying 'See you soon'",
+  "ground_truth_actions": [
+    "CLICK(\"Messages\")",
+    "CLICK(\"New Message\")",
+    "CLICK(\"To\")",
+    "TYPE(\"Alice\")",
+    "CLICK(\"Message body\")",
+    "TYPE(\"See you soon\")",
+    "CLICK(\"Send\")"
+  ],
+  "predicted_actions": [
+    "CLICK(\"Messages\")",
+    "CLICK(\"New Message\")",
+    "CLICK(\"To\")"
+  ],
+  "self_reflections": [
+    "To send an SMS to Alice, I need to open the Messages app first, which will allow me to compose and send a text message.",
+    "To send an SMS to Alice, I need to start by creating a new message. The \"New Message\" button will open a new conversation where I can enter Alice as the recipient and type the message \"See you soon\".",
+    "I need to specify the recipient (Alice) before I can compose and send the message. The \"To\" field is where I enter the recipient's name or phone number."
+  ],
+  "metrics": {
+    "step_accuracy": 0.43,
+    "episode_success": false
+  }
+}

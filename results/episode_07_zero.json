@@ -1,0 +1,19 @@
+{
+  "goal": "Mute all notification sounds",
+  "ground_truth_actions": [
+    "CLICK(\"Sound\")",
+    "CLICK(\"Do Not Disturb\")"
+  ],
+  "predicted_actions": [
+    "CLICK(\"Sound\")",
+    "CLICK(\"Do Not Disturb\")"
+  ],
+  "self_reflections": [
+    "The \"Sound\" option is likely where we can manage all sound and notification settings.",
+    "The \"Do Not Disturb\" option typically mutes all notifications, including their sounds."
+  ],
+  "metrics": {
+    "step_accuracy": 1.0,
+    "episode_success": true
+  }
+}
